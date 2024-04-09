@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    font-family: "Manrope", sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 150px;
+}
+
+.card{
+    padding: 40px;
+    background-color: #f1f1f3;
+    border: 0;
+    border-radius: 4px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, .1);
+}
+
+h1{
+    text-align: center;
+    font-size: 3em;
+}
+.btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.btn button{
+    height: 40px;
+    width: 40px;
+}
+button{
+        outline: 0;
+        display: inline-flex;
+        align-items: center;
+        justify-content: space-between;
+        background: linear-gradient(#c045fc, #a62ce2);
+        min-width: fit-content;
+        border: 0;
+        border-radius: 4px;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, .1);
+        padding: 16px 20px;
+        color: #fff;
+        font-size: 15px;
+        font-weight: 600;
+        letter-spacing: 1.2px;
+        text-transform: uppercase;
+        overflow: hidden;
+        cursor: pointer;
+        text-align: center;
+ } 
+
+ button:hover {
+        opacity: .95;
+      }
+      
+
+
+.change{
+ font-size: 1em;
+ margin-top: 10px;
+ margin-bottom: 10px;
+ letter-spacing: 2px;
+ display: flex;
+}
+
+input{
+    height: 35px;
+    width: 80px;
+    cursor: text;
+    background: transparent;
+    border: 1px solid black;
+    border-radius: 4px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, .1);
+}
+
+.reset{
+ margin-left: 140px;
+} 
